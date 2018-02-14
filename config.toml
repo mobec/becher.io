@@ -1,0 +1,4 @@
+baseURL = "https://blog.mobecher.com"
+languageCode = "en-us"
+title = "Moritz Becher's Homepage"
+theme = "ananke"
