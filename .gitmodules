@@ -7,3 +7,6 @@
 [submodule "themes/hugo-goa"]
 	path = themes/hugo-goa
 	url = https://github.com/shenoybr/hugo-goa
+[submodule "themes/hugo-cactus-theme"]
+	path = themes/hugo-cactus-theme
+	url = https://github.com/digitalcraftsman/hugo-cactus-theme.git
