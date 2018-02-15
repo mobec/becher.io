@@ -1,2 +1,0 @@
-#!/bin/bash
-ssh web@mobecher.com "cd dev/mobecher.com; git pull --recurse-submodules; hugo -d /var/www/blog.mobecher.com/html"
