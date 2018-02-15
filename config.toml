@@ -1,61 +1,54 @@
-## Basic Configuration
+# Site settings
+baseurl = "https://example.org/"
+themesDir = "../.."
+languageCode = "en-us"
+title = "Hugo Cactus Theme"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "spf13"
 
-baseurl = "https://shenoybr.github.io/hugo-goa-demo/" 
-builddrafts = false
-canonifyurls = false
-languageCode = "en-US"
-
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-
-author = "Moritz Becher"
-title = "Moritz Becher"
-
-theme = "hugo-goa"
-
-## Hugo Built-in Features
-# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
-enableRobotsTXT = true
-
-## Site Settings
 [params]
-author = "Moritz Becher"
-intro = "Startup Guru Extraordinaire"
-description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
-authorimage = "headshot.jpg"
-dateformat = "Jan 2, 2006"
+	name = "John Doe"
+	description = "Describe your website"
+	bio = "Blogger & Programmer"
+	# Enter optionally your twitter account
+	twitter = "Your Twitter account"
+	enableRSS = true
 
-## Site Meta Settings
-[params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+	customCSS = []
+	customJS  = []
 
-## Social Accounts
-[params.social]
-github = "<username>"
-email = "you@example.com"
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
 
-## Extras
-[params.extra]
-copyright = "" #"© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredby = false
-highlightjs = false
+	# Navigation links
+	home = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "I'm an blogger."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
 
-## Main Menu
-[[menu.main]]
-    name = "blog"
-    weight = 100
-    identifier = "blog"
-    url = "/blog/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://www.twitter.com/"
+    facebook = "https://www.facebook.com/"
+    github   = "https://www.github.com/"
+    dribble  = "https://www.dribbble.com/"
