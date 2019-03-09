@@ -1,0 +1,7 @@
+before_script:
+  - hugo version
+
+rspec:
+  script:
+    - hugo -D
+    - cp public/* /var/www/mobecher.com/html
