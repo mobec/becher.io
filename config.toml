@@ -120,4 +120,4 @@ disableHugoGeneratorInject = false
 
 [mediaTypes]
   [mediaTypes."text/html"]
-  suffix = "htm"
+  suffixes = ["htm"]
