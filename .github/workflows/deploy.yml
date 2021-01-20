@@ -38,7 +38,7 @@ jobs:
       - name: 🎉 Deploy
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          local-dir: ./public/
+          local-dir: public/
           ftp-server: ${{ secrets.ftp_server }}
           ftp-username: ${{ secrets.ftp_username }}
           ftp-password: ${{ secrets.ftp_password }}
