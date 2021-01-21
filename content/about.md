@@ -6,6 +6,4 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Hugo Authors"
 +++
 
-I'm a graphics and ai developer based in Munich, currently working for [UX3D GmbH](https://ux3d.io) on state of the art GPU projects.
-
-
+I'm a graphics and ai developer based in Berlin, currently working for [UX3D GmbH](https://ux3d.io) on state of the art GPU projects and [glTF](https://www.khronos.org/gltf/), the next generation 3D file format.
