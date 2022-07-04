@@ -34,9 +34,14 @@ Guided Research with publication "Latent-space Physics: Learning the Temporal Ev
 Development support for GeschichtePLUS: Augmented Reality Workshop.
 
 # Education
-## Technical University of Munich; Munich, Germany — Informatics: Games Engineering (M.Sc.) 2019
+## Technical University of Munich; Munich, Germany — Informatics: Games Engineering (M.Sc.) 
+`2019`
+
 Focus on visual computing, machine learning and the simulation of physical systems.
-## Technical University of Munich; Munich, Germany — Informatics: Games Engineering (B.Sc.) 2016
+
+## Technical University of Munich; Munich, Germany — Informatics: Games Engineering (B.Sc.) 
+`2016`
+
 Foundation of mathematics, computer science, game engine design, augmented reality and artificial intelligence.
 
 # Skills
