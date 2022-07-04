@@ -77,7 +77,7 @@ disableHugoGeneratorInject = false
   themeColor = "#252627"
 
   [params.logo]
-    logoText     = "$ cd /home/mobecher"
+    logoText     = "$mobecher"
     logoHomeLink = "/"
 
   # Social icons
