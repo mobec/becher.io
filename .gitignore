@@ -4,3 +4,4 @@ publish.sh
 *.swp
 /resources
 /.hugo_build.lock
+.DS_Store
