@@ -1,7 +1,6 @@
 baseURL = "https://becher.io"
 languageCode = "en-us"
 title   = "Mo Becher"
-theme = "cactus"
 copyright = "CC BY NC" # This message is only used by the RSS template.
 
 [[menu.main]]
