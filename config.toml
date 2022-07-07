@@ -1,7 +1,7 @@
 baseURL = "https://becher.io"
 languageCode = "en-us"
 title   = "Mo Becher"
-copyright = "CC BY NC" # This message is only used by the RSS template.
+copyright = "CC BY-NC 4.0" # This message is only used by the RSS template.
 
 [[menu.main]]
   identifier = "cv"
